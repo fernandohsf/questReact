@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import ChangedColorUpperCase from './components/changedColorUpperCase';
+import Button from './components/button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ChangedColorUpperCase color='blue'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eum, illum nihil sint dicta natus quae odit, facere ratione odio provident sunt eius. Quod odit vitae magnam voluptates, nulla eligendi!</p>
+      </ChangedColorUpperCase>
+      <Button label = "Baixar CV"/>
+    </>
   );
 }
 
