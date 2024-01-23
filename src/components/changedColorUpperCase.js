@@ -9,4 +9,5 @@ const ChangedColorUpperCase = (props) => {
         </>
     )
 }
+
 export default ChangedColorUpperCase
